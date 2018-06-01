@@ -3,7 +3,16 @@
 <body>
 	<h1>js playground</h1>
 	<script>
-		console.log("hellow world");
+		var str = prompt("Input number");
+		var n = Number(str);
+		if (n > 5) {
+			console.log(n + "is bigger than 5");
+		} else if(n >= 3){
+			console.log(n +"is bigger than 3 and smaller than 5")
+		}
+		else {
+			console.log(n +"is smller than 5");
+		}
 	</script>
 </body>
 </html>
