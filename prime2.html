@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script type="text/javascript">
+
+	var isPrime=true;	
+	var n = Number(prompt("숫자를 입력하세요"));
+
+	for (var i = 2; i < n; i++){
+		
+		if(n % i === 0); {
+			isPrime = false;			
+			console.log(isPrime, i);
+			// break;
+			} 
+	}
+
+	if(isPrime){
+		document.write("입력한 숫자는 소수입니다.");
+	} else {
+		document.write("입력한 숫자는 소수가 아닙니다.");
+	}
+
+
+	</script>
+</body>
+</html>
